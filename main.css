@@ -1,0 +1,86 @@
+html{
+  box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+
+}
+
+
+.castleMain{
+  position: fixed;
+  left: 36%;
+  top: 25%;
+  width: 300px;
+  height: 500px;
+  background-color: rgb(125, 140, 125);
+  display: flex;
+  z-index: 10;
+
+}
+
+.windowMain1{
+  position: relative;
+  top: 20%;
+  left: 35%;
+  background-color: yellow;
+  width: 75px;
+  height: 100px;
+
+}
+
+.windowMain2{
+  position: relative;
+  top: 50%;
+  left: 10%;
+  background-color: yellow;
+  width: 75px;
+  height: 100px;
+
+}
+
+.windowLeft1{
+  position: relative;
+  top: 20%;
+  left: 35%;
+  background-color: yellow;
+  width: 75px;
+  height: 100px;
+
+}
+
+.windowRight1{
+  position: relative;
+  top: 20%;
+  left: 35%;
+  background-color: yellow;
+  width: 75px;
+  height: 100px;
+
+}
+
+.castleLeft{
+  position: fixed;
+  left: 16.5%;
+  top: 39.8%;
+  width: 250px;
+  height: 400px;
+  background-color: rgb(40, 80, 195);
+
+}
+
+.castleRight{
+  position: fixed;
+  left: 59.45%;
+  top: 39.8%;
+  width: 250px;
+  height: 400px;
+  background-color: rgb(180, 140, 95);
+
+}
