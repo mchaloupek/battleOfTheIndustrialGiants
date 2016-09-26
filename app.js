@@ -17,23 +17,45 @@ $(function(){
 //
 // });
 
+//*********************NEW TO THIS AND TRYING IT*************
+
+
+  // $('html').animate({backgroundColor: 'rgb(255, 180, 0)'}).delay(1000)
+  // $('html').animate({backgroundColor: 'rgb(0, 0, 180)'}).delay(1000)
+  //
+  // $('html').animate({backgroundColor: 'rgb(255, 180, 0)'}).delay(1000)
+  // $('html').animate({backgroundColor: 'rgb(0, 0, 180)'}).delay(1000)
+
+
+
+// **** IT WORKED ****
+
+
+setInterval(function(){
+  $('html').animate({backgroundColor: 'rgb(255, 180, 0)'}).delay(1000)
+  $('html').animate({backgroundColor: 'rgb(0, 0, 180)'}).delay(1000)
+}, 1000);
+
+
+
+
 
 
 //   function skyy() {
 //
 //     var skyy = background-color
-//     var dayy = rgb(255, 180, 0)
+//     var dayy = #ffa100
 //
-//     if (skyy = rgb(0, 0, 180)) {
+//     if (skyy = #0000b4) {
 //
-//       $('html').css('background-color', 'rgb(255, 180, 0)');
+//       $('html').animate({backgroundColor: 'rgb(255, 180, 0)'});
 //
 //     }
 //
 //     if (skyy = dayy) {
 //
 //
-//       $('html').css('background-color', 'rgb(0, 0, 180)');
+//       $('html').animate({backgroundColor: 'rgb(0, 0, 180)'});
 //
 //     }
 //
