@@ -11,6 +11,9 @@ $(function(){
   $('.rightbehind').addClass('animated bounce infinite');
   $('.behindbehind').addClass('animated bounce infinite');
 
+  $('.gozilla').addClass('animated pulse infinite');
+  $('.mothra').addClass('animated pulse infinite');
+
 // $('.castleMain').click(function() {
 //
 //   $('html').animate({background-color: rgb(255, 180, 0)}, 1000, function())
