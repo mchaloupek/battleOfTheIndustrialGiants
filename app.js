@@ -11,8 +11,39 @@ $(function(){
   $('.rightbehind').addClass('animated bounce infinite');
   $('.behindbehind').addClass('animated bounce infinite');
 
+// $('.castleMain').click(function() {
+//
+//   $('html').animate({background-color: rgb(255, 180, 0)}, 1000, function())
+//
+// });
 
 
+
+//   function skyy() {
+//
+//     var skyy = background-color
+//     var dayy = rgb(255, 180, 0)
+//
+//     if (skyy = rgb(0, 0, 180)) {
+//
+//       $('html').css('background-color', 'rgb(255, 180, 0)');
+//
+//     }
+//
+//     if (skyy = dayy) {
+//
+//
+//       $('html').css('background-color', 'rgb(0, 0, 180)');
+//
+//     }
+//
+//
+//
+//
+//   }
+//
+//
+// skyy();
 
 
 
